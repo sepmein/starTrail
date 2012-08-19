@@ -7,7 +7,7 @@
 
 打开scripts.js，找到一下片段，对该变量作的任何修改能改变star trails在浏览器中的表现。
 
-`
+```
 var preference = {
 		P: [640, 400],
 		//中心位置
@@ -26,7 +26,7 @@ var preference = {
 		//星轨运行速度，完成一圈所需要的ms
 		step: 360 //步进，星轨完成动画总共运行的角度
 	};
-`
+```
 
 [前往](http://spencer.kokiya.com 'kokiya')Spencer的博客查看关于starTrail的博文
 contact [sepmein@gmail.com](mailto:sepmein@gmail.com 'send me an email')
