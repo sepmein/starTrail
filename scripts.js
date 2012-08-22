@@ -1,3 +1,8 @@
+/**
+ # Star Trail - simulating star trails on the sky with Raphealjs
+ @module StarTrail
+ @main StarTrail
+ */
 (function() {
 	var holder = document.getElementById('holder');
 	var paper = Raphael(holder, 1280, 800);
@@ -20,7 +25,11 @@
 		//星轨运行速度，完成一圈所需要的ms
 		step: 360 //步进，星轨完成动画总共运行的角度
 	};
-
+	/**
+	接收一个配置对象，根据该对象的值在浏览器中绘制星空轨迹图
+	@method starTrail
+	@param {Object} pereference 配置，控制星空的轨迹的效果 
+	 */
 	function starTrail(P) {
 
 		//计算svg path elliptical arc算法的customAttributes函数
@@ -116,5 +125,14 @@
 
 	}
 
-	starTrail(preference);
+	var st = new StarTrail(preference).init();
 })();
+
+
+function StarTrail(pref,pap){
+	
+}
+StarTrail.prototype.init = function(){
+	
+}
+St
