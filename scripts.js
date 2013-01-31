@@ -5,7 +5,7 @@
 	// 画布的dom容器，可以使用任何能想得到的方法指向dom元素，例如：
 	//
 	// 	document.getElementById(‘holder’);  
-	// 	$('holder')[0]
+	// 	$('#holder')[0]
 	// 	
 	// 等等...
 	var holder = document.getElementById('holder');
@@ -149,14 +149,6 @@
 
 	}
 
-	var st = new StarTrail(preference).init();
+	starTrail(preference);	
+	// var st = new StarTrail(preference).init();
 })();
-
-
-function StarTrail(pref,pap){
-
-}
-StarTrail.prototype.init = function(){
-
-}
-St

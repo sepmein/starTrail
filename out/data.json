@@ -1,0 +1,29 @@
+{
+    "project": {},
+    "files": {
+        "scripts.js": {
+            "name": "scripts.js",
+            "modules": {
+                "StarTrail": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "StarTrail": {
+            "name": "StarTrail",
+            "submodules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "scripts.js",
+            "line": 1,
+            "description": "<h1>Star Trail - simulating star trails on the sky with Raphealjs</h1>"
+        }
+    },
+    "classes": {},
+    "classitems": []
+}
