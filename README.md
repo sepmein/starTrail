@@ -34,4 +34,4 @@ contact [sepmein@gmail.com](mailto:sepmein@gmail.com 'send me an email')
 ps:branch bigbang is also good, check it out
 另：bigbang分支也不错，有空玩玩儿
 
-check out/ for more docs
+check doc/ for more docs
